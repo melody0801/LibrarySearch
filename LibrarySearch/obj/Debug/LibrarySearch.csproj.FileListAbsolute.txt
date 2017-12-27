@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\LibrarySearch\LibrarySearch\bin\Debug\LibrarySearch.exe.config
+C:\Users\Administrator\Desktop\LibrarySearch\LibrarySearch\bin\Debug\LibrarySearch.exe
+C:\Users\Administrator\Desktop\LibrarySearch\LibrarySearch\bin\Debug\LibrarySearch.pdb
+C:\Users\Administrator\Desktop\LibrarySearch\LibrarySearch\obj\Debug\LibrarySearch.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\LibrarySearch\LibrarySearch\obj\Debug\LibrarySearch.Form1.resources
+C:\Users\Administrator\Desktop\LibrarySearch\LibrarySearch\obj\Debug\LibrarySearch.Properties.Resources.resources
+C:\Users\Administrator\Desktop\LibrarySearch\LibrarySearch\obj\Debug\LibrarySearch.SignUp.resources
+C:\Users\Administrator\Desktop\LibrarySearch\LibrarySearch\obj\Debug\LibrarySearch.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\LibrarySearch\LibrarySearch\obj\Debug\LibrarySearch.exe
+C:\Users\Administrator\Desktop\LibrarySearch\LibrarySearch\obj\Debug\LibrarySearch.pdb
