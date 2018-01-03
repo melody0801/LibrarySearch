@@ -20,6 +20,7 @@ namespace LibrarySearch
         public SignUp()
         {
             InitializeComponent();
+            this.BackgroundImage = Image.FromFile("C:\\Users\\Administrator\\Desktop\\LibrarySearch\\LibrarySearch\\bg.jpg");
         }
 
         private void btn_check_Click(object sender, EventArgs e)

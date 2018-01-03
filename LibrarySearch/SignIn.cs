@@ -15,12 +15,12 @@ namespace LibrarySearch
 {
     public partial class Form1 : Form
     {
-        string User, Pwd;
         bool judge = false;
 
         public Form1()
         {
             InitializeComponent();
+            this.BackgroundImage=Image.FromFile("C:\\Users\\Administrator\\Desktop\\LibrarySearch\\LibrarySearch\\bg.jpg");
         }
 
 

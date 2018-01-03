@@ -43,7 +43,7 @@
             // 
             // tB_username
             // 
-            this.tB_username.Location = new System.Drawing.Point(143, 117);
+            this.tB_username.Location = new System.Drawing.Point(199, 106);
             this.tB_username.Multiline = true;
             this.tB_username.Name = "tB_username";
             this.tB_username.Size = new System.Drawing.Size(162, 26);
@@ -52,7 +52,7 @@
             // 
             // tB_password
             // 
-            this.tB_password.Location = new System.Drawing.Point(143, 184);
+            this.tB_password.Location = new System.Drawing.Point(199, 173);
             this.tB_password.Multiline = true;
             this.tB_password.Name = "tB_password";
             this.tB_password.PasswordChar = '*';
@@ -61,7 +61,7 @@
             // 
             // tB_confirm
             // 
-            this.tB_confirm.Location = new System.Drawing.Point(143, 247);
+            this.tB_confirm.Location = new System.Drawing.Point(199, 247);
             this.tB_confirm.Multiline = true;
             this.tB_confirm.Name = "tB_confirm";
             this.tB_confirm.Size = new System.Drawing.Size(162, 26);
@@ -71,7 +71,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(70, 120);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Location = new System.Drawing.Point(92, 109);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 12);
             this.label1.TabIndex = 3;
@@ -80,16 +81,18 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(70, 187);
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Location = new System.Drawing.Point(92, 176);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(29, 12);
+            this.label2.Size = new System.Drawing.Size(41, 12);
             this.label2.TabIndex = 4;
-            this.label2.Text = "密码";
+            this.label2.Text = "密  码";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(70, 250);
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Location = new System.Drawing.Point(92, 250);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(53, 12);
             this.label3.TabIndex = 5;
@@ -98,8 +101,9 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label4.Location = new System.Drawing.Point(141, 157);
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label4.Location = new System.Drawing.Point(197, 149);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(167, 12);
             this.label4.TabIndex = 6;
@@ -108,8 +112,9 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label5.Location = new System.Drawing.Point(141, 222);
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label5.Location = new System.Drawing.Point(197, 217);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(101, 12);
             this.label5.TabIndex = 7;
@@ -118,8 +123,9 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label6.Location = new System.Drawing.Point(141, 285);
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label6.Location = new System.Drawing.Point(197, 291);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(95, 12);
             this.label6.TabIndex = 8;
@@ -127,7 +133,7 @@
             // 
             // btn_check
             // 
-            this.btn_check.Location = new System.Drawing.Point(123, 336);
+            this.btn_check.Location = new System.Drawing.Point(132, 317);
             this.btn_check.Name = "btn_check";
             this.btn_check.Size = new System.Drawing.Size(76, 28);
             this.btn_check.TabIndex = 9;
@@ -137,7 +143,7 @@
             // 
             // btn_reset
             // 
-            this.btn_reset.Location = new System.Drawing.Point(232, 336);
+            this.btn_reset.Location = new System.Drawing.Point(270, 317);
             this.btn_reset.Name = "btn_reset";
             this.btn_reset.Size = new System.Drawing.Size(76, 28);
             this.btn_reset.TabIndex = 10;
@@ -149,7 +155,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(420, 435);
+            this.ClientSize = new System.Drawing.Size(514, 369);
             this.Controls.Add(this.btn_reset);
             this.Controls.Add(this.btn_check);
             this.Controls.Add(this.label6);

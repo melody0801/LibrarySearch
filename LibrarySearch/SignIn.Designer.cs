@@ -38,25 +38,26 @@
             // 
             // tB_username
             // 
-            this.tB_username.Location = new System.Drawing.Point(179, 118);
+            this.tB_username.Location = new System.Drawing.Point(229, 143);
             this.tB_username.Name = "tB_username";
             this.tB_username.Size = new System.Drawing.Size(144, 21);
             this.tB_username.TabIndex = 0;
             // 
             // tB_password
             // 
-            this.tB_password.Location = new System.Drawing.Point(180, 170);
+            this.tB_password.Location = new System.Drawing.Point(230, 199);
             this.tB_password.Multiline = true;
             this.tB_password.Name = "tB_password";
             this.tB_password.PasswordChar = '*';
             this.tB_password.Size = new System.Drawing.Size(143, 24);
             this.tB_password.TabIndex = 1;
-            this.tB_password.UseSystemPasswordChar = true;
             // 
             // username
             // 
             this.username.AutoSize = true;
-            this.username.Location = new System.Drawing.Point(90, 120);
+            this.username.BackColor = System.Drawing.Color.Transparent;
+            this.username.ForeColor = System.Drawing.Color.Black;
+            this.username.Location = new System.Drawing.Point(124, 146);
             this.username.Name = "username";
             this.username.Size = new System.Drawing.Size(41, 12);
             this.username.TabIndex = 2;
@@ -65,7 +66,8 @@
             // password
             // 
             this.password.AutoSize = true;
-            this.password.Location = new System.Drawing.Point(90, 173);
+            this.password.BackColor = System.Drawing.Color.Transparent;
+            this.password.Location = new System.Drawing.Point(124, 202);
             this.password.Name = "password";
             this.password.Size = new System.Drawing.Size(41, 12);
             this.password.TabIndex = 3;
@@ -73,7 +75,7 @@
             // 
             // btn_signup
             // 
-            this.btn_signup.Location = new System.Drawing.Point(107, 233);
+            this.btn_signup.Location = new System.Drawing.Point(141, 265);
             this.btn_signup.Name = "btn_signup";
             this.btn_signup.Size = new System.Drawing.Size(73, 23);
             this.btn_signup.TabIndex = 4;
@@ -83,7 +85,7 @@
             // 
             // btn_signin
             // 
-            this.btn_signin.Location = new System.Drawing.Point(216, 233);
+            this.btn_signin.Location = new System.Drawing.Point(276, 265);
             this.btn_signin.Name = "btn_signin";
             this.btn_signin.Size = new System.Drawing.Size(73, 23);
             this.btn_signin.TabIndex = 5;
@@ -95,7 +97,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(413, 308);
+            this.ClientSize = new System.Drawing.Size(514, 369);
             this.Controls.Add(this.btn_signin);
             this.Controls.Add(this.btn_signup);
             this.Controls.Add(this.password);
